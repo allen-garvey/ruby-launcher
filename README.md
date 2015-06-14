@@ -6,12 +6,7 @@ Ruby Launcher is a simple, native Mac GUI program written in Swift that allows y
 
 1. Download the Ruby Launcher project files.
 
-2. 
-  - Drag the Ruby Launcher.app file from the main folder to your application folder and double click to run (you may have to change your Mac settings by going into Settings->Security & Privacy->General->Allow apps downloaded from: Anywhere).
-
-  ####OR
-
-  - Compile the project yourself by opening it in Xcode (free download from the Appstore required) and going to Product->Archive->Export.
+2. Compile the project opening it in Xcode (free download from the Appstore required) and going to Product->Archive->Export.
 
 ##How To Use
 
@@ -29,7 +24,7 @@ Ruby Launcher works the same as typing `ruby "full path of program name"` in you
 - Tested on Mac OSX 10.10 (Yosemite)
 - Should also work on Mac OSX 10.09 (Mavericks), but this is untested
 - Will not work on earlier Mac versions, because Swift is not supported
-- Dependencies - requires Ruby to be already installed and set up in the user's $PATH variable (this is the default on a Mac)
+- Dependencies - requires Ruby to be already installed and set up in the user's $PATH variable (this is the default on a Mac) and Xcode to compile the project
 
 ##License
 The MIT License (MIT) Copyright (c) 2015 Allen Garvey
